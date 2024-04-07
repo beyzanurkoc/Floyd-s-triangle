@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main(){
+int rows = 10, num = 1, row = 1;
+	while(row <= rows){
+		int col = 1;
+		while(col <= row){
+			printf("%d ",num);
+			num++;
+			col++;
+		}
+		printf("\n");
+		row++;
+	}
+	return 0;
+}
